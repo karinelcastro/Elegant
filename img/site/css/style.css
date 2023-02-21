@@ -1,0 +1,88 @@
+/* CABECALHO DA PÁGINA*/
+.pagina{
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.cabecalho{
+    display: flex;
+    padding-top: 5%;
+}
+
+.cabecalho article{
+
+    width: 50%;
+}
+
+
+
+.cabecalho article:nth-child(1){
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.cabecalho article:nth-child(2){
+    text-align: end;
+    font-size: 32px;
+    color: #fff;
+}
+
+.cabecalho article i{
+    cursor: pointer;
+}
+
+
+.banner{
+    background: url(../img/banne.png);
+    height: 100vh;
+    background-size: 100%;
+}
+
+/* TEXTO DO BANNER */
+
+.textbanner{
+    margin-top: 20%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.textbanner article p{
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+.textbanner article h2{
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: bolder;
+}
+
+/*CARDS DO SITE*/
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -12%;
+}
+
+.card article{
+    width: 20%;
+    text-align: center;
+}
+
+.card article i{
+    font-size: 50px;
+    margin-bottom: 10%;
+}
+
+.card article h2{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.card article p{
+    margin-top: 10%;
+    line-height: 25px;
+}

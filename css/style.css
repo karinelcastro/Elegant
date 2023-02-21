@@ -1,0 +1,432 @@
+/* CABECALHO DA PÁGINA*/
+.pagina{
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.cabecalho{
+    display: flex;
+    padding-top: 5%;
+}
+
+.cabecalho article{
+
+    width: 50%;
+}
+
+
+
+.cabecalho article:nth-child(1){
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.cabecalho article:nth-child(2){
+    text-align: end;
+    font-size: 32px;
+    color: #fff;
+}
+
+.cabecalho article i{
+    cursor: pointer;
+}
+
+
+.banner{
+    background: url(../img/banne.jpg);
+    height: 100vh;
+    background-size: 100%;
+}
+
+/* TEXTO DO BANNER */
+
+.textbanner{
+    margin-top: 8%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10%;
+}
+
+.textbanner article p{
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+.textbanner article h2{
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: bolder;
+    
+}
+
+/*CARDS DO SITE*/
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -8%;
+    padding-bottom: 5%;
+}
+
+.card article{
+    width: 20%;
+    text-align: center;
+    background-color: #fff;
+    border: solid 1px rgb(172,172,172);
+    padding: 1%;
+}
+
+.card article i{
+    font-size: 72px;
+    margin-bottom: 10%;
+    color: rgb(255,33,79);
+    margin-top: 10%;
+}
+
+.card article h2{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.card article p{
+    margin-top: 10%;
+    line-height: 25px;
+    color: rgb(54,54,54);
+}
+
+/*seção 02 da pagina*/
+
+.sobre{
+    display: flex;
+    background-color: rgb(221,222,224);
+    font-family: 'Roboto', sans-serif;
+    padding-top: 5%;
+}
+
+.sobre article{
+    width: 70%;
+}
+
+.sobre article{
+    width: 50%;
+}
+    
+
+.sobre article img{
+    width: 90%;
+    height: 100vh;
+    opacity: 0.9;
+}
+
+.sobre article:nth-child(2) h2{
+    margin-bottom: 5%;
+    color: red;
+}
+
+.sobre article:nth-child(2) h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sobre article:nth-child(2) p{
+    margin-top: 7%;
+    line-height: 32px;
+    color:black
+
+}
+
+.container{
+    display: flex;
+    margin-top: 20%;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.container article{
+    width: 45%;
+}
+
+.container article h4{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sobre article p{
+    font-style: italic;
+}
+
+/*SEÇÃO 03 DA PÁGINA */
+
+.secao03{
+    display: flex;
+    width: 100%;
+    background-color: rgb(0,0,0);
+    font-family: Roboto, sans-serif;
+}
+
+
+.secao03 article:nth-child(even){
+    padding: 1%;
+}
+
+.secao03 article{
+    width: 25%;
+}
+
+.secao03 article h2{
+    font-size: 17px;
+    color: rgb(235, 18,18);
+    margin-top: 10%;
+}
+
+.secao03 article h3{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10%;
+    line-height: 25px;
+}
+
+.secao03 article p{
+    font-style: italic;
+    margin-top: 10%;
+    line-height: 23px;
+    color: rgb(80,80,80);
+    margin-bottom: 5%;
+}
+
+.secao03 article span{
+    color: rgb(235, 18,18) ;
+    cursor: pointer;
+}
+.secao03 article img{
+    width: 100%;
+    height: 60vh;
+    filter: grayscale(100%);
+}
+
+/*CATALOGO DA PAGINA*/
+
+.textcatalogo div{
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+.textcatalogo div h2{
+    color: rgb(235, 18,18);
+    font-size: 20px;
+    margin-top: 8%;
+}
+
+.textcatalogo div h3{
+    font-size: 24px;
+    margin-top: 3%;
+    font-weight: bold;
+}
+
+.catalogo div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.catalogo{
+    margin-top: 5%;
+}
+
+.catalogo div article{
+    width: 22%;
+}
+
+.catalogo div article img{
+    width: 100%;
+}
+
+/*LISTA*/
+
+.sect{
+    display: flex;
+}
+.sect div{
+    width: 50%;
+}
+
+.sect div img{
+    width: 100%;
+    height: 50vh;
+    margin-top: 10%;
+}
+
+.sect div:nth-child(1){
+    margin-top: 10%;
+    font-size: 20px;
+    font-family: Roboto, sans-serif ;
+}
+
+.sect div h2{
+    color: rgb(235, 18,18);
+    margin-bottom: 5%;
+    padding-left: 10%;
+}
+
+.sect div h3{
+    font-weight: bold;
+    padding-bottom: 5%;
+    padding-left: 10%;
+}
+
+.sect div ol{
+    padding-left: 15%;
+
+}
+.sect div li{
+    list-style-type: decimal;
+    color: rgb(100,77,77);
+    font-style: italic;
+    line-height: 35px;
+    font-size: 18px;
+    
+}
+
+/*SEÇÃO 05 DA PÁGINA*/
+
+.background_text{
+    background: url(../img/05.jpg) no-repeat;
+    background-size: 100%;
+    padding-bottom: 5%;
+}
+
+
+
+.textos h2{
+    color: rgb(235, 18,18);
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    padding-top: 10%;
+}
+
+.textos h3{
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5%;
+    line-height: 32px;
+}
+
+.textos{
+    width: 50%;
+    margin-left: 5%;
+}
+
+.texto2{
+    display: flex;
+    margin-top: 10%;
+    font-family: Roboto, sans-serif;
+    width: 100%;
+}
+
+.texto2 article{
+    margin-top: 25%;
+    width: 70%;
+}
+
+.texto2 article h4{
+    font-weight: bold;
+    margin-bottom: 20%;
+}
+
+.texto2 article p{
+    font-style: italic;
+    color: rgb(80,80,80);
+}
+
+/*SEÇÃO 06 DA PÁGINA*/
+.central{
+    background: url(../img/06.jpg) no-repeat;
+    background-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.central div{
+    border: solid 1px #fff;
+    width: 50%;
+    margin-top: 5%;
+    padding-left: 2%;
+    
+}
+.central div h2{
+    color: rgb(235, 18,18);
+    padding-top: 10%;
+}
+
+.central div p{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+/*Endereço da pagina*/
+.back_endereco{
+    background-color: #000;
+}
+
+.endereco{
+    display: flex;
+    width: 100%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.endereco article{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.endereco article:nth-child(2){
+    padding: 0 3% 3% 3%;
+}
+.endereco article h2{
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 40%;
+}
+
+.endereco article span{
+    margin-top: 10%;
+}
+
+.endereco article a{
+    margin-top: 10%;
+    color: rgb(253, 130, 103);
+}
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    background-color: #333333;
+    height: 200px;
+    justify-content: space-around;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer h2{
+    font-size: 20px;
+    padding-top: 50%;
+}
+
+footer p{
+    font-size: 18px;
+    padding-top: 15%;
+}
